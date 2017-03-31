@@ -1,6 +1,9 @@
 function pingPongList(number) {
-  // var baseNumbers = ["1","2","3",'4',"5","6","7","8"]
+
+  
   var numbers = [];
+  $(numbers.push(baseNumbers));
+
   // for( i=0; i<numbers.length, i++ ) {
   //   if (numbers[i] === baseNumbers)
   //   numbers.push(numbers[i])
@@ -11,6 +14,7 @@ function pingPongList(number) {
 }
 
 
+
 // below is the userinterface logic
 
 $(document).ready(function() {
@@ -19,7 +23,7 @@ $(document).ready(function() {
       var finalNumber = $("input#final-number").val();
       var countingList = pingPongList(finalNumber);
 
-      $("#counting-list").text(countingList);
+      $("#counting-list").append(countingList);
 
       $("#counting-list").show();
 
