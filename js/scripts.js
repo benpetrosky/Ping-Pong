@@ -1,11 +1,10 @@
 function pingPongList(number) {
 
-  
   var numbers = [];
-  $(numbers.push(baseNumbers));
+  alert(numbers)
 
   // for( i=0; i<numbers.length, i++ ) {
-  //   if (numbers[i] === baseNumbers)
+  //   if (numbers[i] ===)
   //   numbers.push(numbers[i])
   // }
   // numbers.unshift(function(number){
@@ -23,10 +22,15 @@ $(document).ready(function() {
       var finalNumber = $("input#final-number").val();
       var countingList = pingPongList(finalNumber);
 
-      $("#counting-list").append(countingList);
+      $("#countinglist").text(countingList);
 
       $("#counting-list").show();
-
+    $("#swing").mouseover(function() {
+      $("#swing").attr("src", "img/obama-horz.jpeg");
+    });
+    $("#swing").mouseout(function() {
+      $("#swing").attr("src", "img/obama.jpeg");
+    });
   });
 });
 

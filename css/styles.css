@@ -1,3 +1,16 @@
 #counting-list {
   display: none;
 }
+h1 {
+  text-align: center;
+  background-color: #99ffcc;
+}
+#set-up {
+
+}
+h3 {
+  text-transform: uppercase;
+}
+h4 {
+  text-decoration: underline;
+}
