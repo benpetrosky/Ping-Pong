@@ -37,10 +37,12 @@ $(document).ready(function() {
       var countingList = pingPongList(userInput);
 
 
-
-      $("#counting-list").text(countingList);
+      countingList.forEach(function(countingList){
+      $("#counting-list").append("<li>" + countingList);
 
       $("#counting-list").show();
+      $(".match").show();
+    });
     });
   });
 

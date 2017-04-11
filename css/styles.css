@@ -1,16 +1,42 @@
 #counting-list {
   display: none;
+  color: #99ffcc;
+  background-color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
 }
+
 h1 {
   text-align: center;
   background-color: #99ffcc;
 }
-#set-up {
 
-}
 h3 {
   text-transform: uppercase;
+  text-decoration: underline;
+  background-color: #99ffcc;
+  text-align: center;
+
+
 }
 h4 {
   text-decoration: underline;
+}
+
+#set-up {
+  font-family: monospace;
+}
+
+img {
+  border: 2px solid #99ffcc;
+
+}
+#obama {
+  background-color: black;
+}
+.match {
+  display:none;
+  font-size: 30px;
+  font-weight: bold;
 }
